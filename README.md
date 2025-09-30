@@ -1,5 +1,5 @@
 cd src \
 npm run dev
 
-cd backend \
+cd back-end \
 node server.js
