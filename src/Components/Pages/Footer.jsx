@@ -31,41 +31,41 @@ export default function Footer() {
               <h4 className="text-white mb-3">Contact</h4>
               <p className="mb-2">
                 <i className="fa fa-map-marker-alt me-3" />
-                Chennai, Tamil Nadu, India
+                Coimbatore, Tamil Nadu, India
               </p>
               <p className="mb-2">
                 <i className="fa fa-phone-alt me-3" />
-                +091 705 088 9705
+                +091 **********
               </p>
               <p className="mb-2">
                 <i className="fa fa-envelope me-3" />
-                basantgoswami7050@gmail.com
+                Facultyperson7050@gmail.com
               </p>
               <div className="d-flex pt-2">
                 <a
                   className="btn btn-outline-light btn-social"
-                  href="https://www.youtube.com/channel/UCESPlHcn45qCQe9YiH43MRw"
+                  href="https://www.youtube.com"
                   target="_blank"
                 >
                   <i className="fab fa-youtube" />
                 </a>
                 <a
                   className="btn btn-outline-light btn-social"
-                  href="https://www.facebook.com/basant.bharati.54/"
+                  href="https://www.facebook.com"
                   target="_blank"
                 >
                   <i className="fab fa-facebook-f" />
                 </a>
                 <a
                   className="btn btn-outline-light btn-social"
-                  href="https://github.com/Basant-goswami"
+                  href="https://github.com"
                   target="_blank"
                 >
                   <i className="fab fa-github" />
                 </a>
                 <a
                   className="btn btn-outline-light btn-social"
-                  href="https://www.linkedin.com/in/basant-kumar-bharati"
+                  href="https://www.linkedin.com/in"
                   target="_blank"
                 >
                   <i className="fab fa-linkedin-in" />
@@ -122,8 +122,8 @@ export default function Footer() {
             <div className="col-lg-3 col-md-6">
               <h4 className="text-white mb-3">Newsletter</h4>
               <p>
-                This website is a Final Year project of IT Department DSCET,
-                Chennai.
+                This website is a Final Year project of Cloud Computing,
+                Amrita.
               </p>
               <div
                 className="position-relative mx-auto"
@@ -155,10 +155,10 @@ export default function Footer() {
                 , All Right Reserved. Designed By{" "}
                 <a
                   className="border-bottom"
-                  href="https://www.linkedin.com/in/basant-kumar-bharati"
+                  href="https://www.linkedin.com"
                   target="_blank"
                 >
-                  DSCET IT Dept final year student
+                  G07
                 </a>
                 <br />
                 <br />

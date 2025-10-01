@@ -12,7 +12,7 @@ export default function Programming() {
     price: "$249.00",
     review: 285,
     title: "Java Full Course",
-    teachername: "Basant",
+    teachername: "Faculty",
     duration: "4.50 Hrs",
     totalstudent: "145",
   };
@@ -25,7 +25,7 @@ export default function Programming() {
     price: "$189.00",
     review: 156,
     title: "Advance Java",
-    teachername: "Basant",
+    teachername: "Faculty",
     duration: "4.13 Hrs",
     totalstudent: "75",
   };
@@ -38,7 +38,7 @@ export default function Programming() {
     price: "$89.00",
     review: 115,
     title: "JavaScript Tutorials",
-    teachername: "Basant",
+    teachername: "Faculty",
     duration: "4.50 Hrs",
     totalstudent: "135",
   };
@@ -51,7 +51,7 @@ export default function Programming() {
     price: "$89.00",
     review: 85,
     title: "Node JS Tutorials",
-    teachername: "Basant",
+    teachername: "Faculty",
     duration: "1.50 Hrs",
     totalstudent: "35",
   };

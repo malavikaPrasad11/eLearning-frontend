@@ -14,7 +14,12 @@ export default function Reactjs() {
                 </div>
                 <div className="row g-2 justify-content-center">
 
-                    <Coursecart link="http://localhost:8080/App Developer\Day - 56 (30_10_23)\62. React (Part 1)\01. What is React_.mp4" title="01. What is React JS" desc="Introduction of React js." />
+                    <Coursecart 
+  link="https://youtu.be/s2skans2dP4" 
+  title="01. What is React JS" 
+  desc="Introduction of React JS." 
+/>
+
 
                     <Coursecart link="http://localhost:8080/App Developer\Day - 56 (30_10_23)\62. React (Part 1)\02. What is JSX_.mp4" title="02. What is JSX" desc="Introduction of React js and JSX" />
 
