@@ -35,7 +35,10 @@ import Profile from "./Components/Pages/Profile";
 import { useAuth0 } from "@auth0/auth0-react";
 import Feedback from "./Components/Pages/Feedback";
 import FeedbackAll from "./Components/Pages/FeedbackAll";
-
+import GroupDiscussion from "./Components/Pages/GroupDiscussion";
+import Payment from "./Components/Pages/Payment";
+import Success from "./Components/Pages/Success";
+import Cancel from "./Components/Pages/Cancel";
 function App() {
   const { loginWithRedirect } = useAuth0();
   return (
@@ -63,6 +66,8 @@ function App() {
           <Route path="/test/fullstack" element={<FullstackQuiz />} />
           <Route path="/test/javascript" element={<JavascriptQuiz />} />
           <Route path="/test/react" element={<ReactQuiz />} />
+          
+          <Route path="/group-discussion" element={<GroupDiscussion />} />
 
           <Route path="/courses/java" element={<Javaprog />} />
           <Route path="/courses/dsa" element={<Dsa />} />
@@ -93,12 +98,15 @@ function App() {
             path="/cources/programming/javascript"
             element={<Javascript />}
           />
-
+          <Route path="/payment" element={<Payment />} />
+          <Route path="/success" element={<Success />} />
+          <Route path="/cancel" element={<Cancel />} />
           <Route path="/library" element={<ShowBook />} />
           {/* <Route path="/feedback/new" element={<Feedback />} /> */}
           <Route path="/feedback" element={<FeedbackAll />} />
 
           <Route path="*" element={<ErrorPage />} />
+
         </Routes>
       </BrowserRouter>
       <BotpressChatbot />

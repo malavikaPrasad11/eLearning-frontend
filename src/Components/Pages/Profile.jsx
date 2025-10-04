@@ -71,7 +71,7 @@ export default function Profile() {
                         Full Stack Developer
                       </p>
                       <p className="text-muted mb-4">
-                        Chennai, Tamilnadu, India
+                        Coimbatore, Tamilnadu, India
                       </p>
                       {/* <div className="d-flex justify-content-center mb-2">
                                                 <MDBBtn>Follow</MDBBtn>

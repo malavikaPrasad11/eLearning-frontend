@@ -15,7 +15,7 @@ export default function Sign() {
                 </div>
                 <div className="singin container" style={{ height: "50vh", minWidth: "70%" }}>
 
-                    <form method='post' action='http://localhost:8080/signIn/'>
+                    <form method='post' action='http://localhost:3000/signIn/'>
                         <div className="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Email address</label>
                             <input type="email" name='email' class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />

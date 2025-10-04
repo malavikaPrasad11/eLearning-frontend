@@ -11,11 +11,20 @@ export default function Coursestructure({data}) {
                         <img className="img-fluid" src={data.img} alt="" />
                         <div className="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                             <Link to={data.readlink} className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: '30px 0 0 30px' }}>Read More</Link>
-                            <Link to={data.join} className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: '0 30px 30px 0' }}>Join Now</Link>
+<Link 
+  to="/payment" 
+  state={{ courseName: data.title, price: parseFloat(data.price.replace(/[^\d.]/g, "")) }} 
+  className="flex-shrink-0 btn btn-sm btn-primary px-3"
+  style={{ borderRadius: '0 30px 30px 0' }}
+>
+  Join Now
+</Link>
+
+
                         </div>
                     </div>
                     <div className="text-center p-4 pb-0">
-                        <h3 className="mb-0 text-decoration-line-through">{data.price}</h3>
+                        <h3 className="mb-0 text-decoration">{data.price}</h3>
                         <div className="mb-3">
                             <small className="fa fa-star text-primary" />
                             <small className="fa fa-star text-primary" />

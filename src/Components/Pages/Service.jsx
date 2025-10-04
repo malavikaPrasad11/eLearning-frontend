@@ -31,13 +31,13 @@ export default function Service() {
             </div>
             <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
               <div className="service-item text-center pt-3">
-                {/* <Link to="/team"> */}
+                <Link to="/group-discussion">
                 <div className="p-4">
                   <i className="fa fa-3x fa-home text-primary mb-4" />
-                  <h5 className="mb-3">Home Projects</h5>
-                  <p>Transform your living space with these creative home project ideas that are sure to inspire.</p>
+                  <h5 className="mb-3">Group Discussion</h5>
+                  <p>Practice and enhance your communication skills with our interactive group discussion simulator.</p>
                 </div>
-                {/* </Link> */}
+                </Link> 
               </div>
             </div>
             <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">

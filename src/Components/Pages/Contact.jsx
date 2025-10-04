@@ -60,7 +60,7 @@ export default function Contact() {
                 </div>
                 <div className="ms-3">
                   <h5 className="text-primary">Office</h5>
-                  <p className="mb-0">DSCET chennai,Tamil Nadu</p>
+                  <p className="mb-0">Coimbatore, Tamil Nadu</p>
                 </div>
               </div>
               <div className="d-flex align-items-center mb-3">
