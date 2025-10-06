@@ -12,7 +12,7 @@ export default function Register() {
                     <h1 className="mb-5">User Register Page</h1>
                 </div>
 
-                <form method='post' action='http://localhost:3000/register'>
+                <form method='post' action='https://elearning-backend-oa0u.onrender.com/register'>
                     <div className="row mb-3">
                         <label for="name" className="col-sm-2 col-form-label">Name</label>
                         <div className="col-sm-10">

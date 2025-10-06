@@ -1,6 +1,7 @@
 {
   "name": "elearning",
   "private": true,
+  "homepage": ".",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -20,12 +21,12 @@
     "@stripe/stripe-js": "^8.0.0",
     "axios": "^1.12.2",
     "dotenv": "^17.2.3",
-    "express": "^4.18.3",
+    "express": "^4.21.2",
     "express-jwt": "^8.5.1",
     "jquery": "^3.7.1",
     "jwks-rsa": "^3.2.0",
     "mdb-react-ui-kit": "^7.2.0",
-    "mongoose": "^8.2.1",
+    "mongodb": "^6.20.0",
     "mssql": "^12.0.0",
     "owl.carousel": "^2.3.4",
     "react": "^18.2.0",

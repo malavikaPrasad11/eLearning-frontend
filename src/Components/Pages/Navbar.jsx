@@ -1,11 +1,50 @@
-import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react";
 import Spinner from "./Spinner";
 
 export default function Navbar() {
-  const { user, isAuthenticated, isLoading, logout, loginWithRedirect } =
-    useAuth0();
+  const navigate = useNavigate();
+  const { user: auth0User, isAuthenticated: auth0Authenticated, isLoading, logout: auth0Logout } = useAuth0();
+  
+  const [localUser, setLocalUser] = useState(null);
+  const token = localStorage.getItem("token");
+  
+  // Check if user is logged in via custom auth or Auth0
+  const isAuthenticated = auth0Authenticated || !!token;
+  const user = auth0Authenticated ? auth0User : localUser;
+
+  // Load local user from localStorage
+  useEffect(() => {
+    if (token && !auth0Authenticated) {
+      const storedUser = localStorage.getItem("user");
+      if (storedUser) {
+        setLocalUser(JSON.parse(storedUser));
+      }
+    }
+  }, [token, auth0Authenticated]);
+
+  // Handle logout for both Auth0 and custom auth
+  const handleLogout = () => {
+    // Clear local storage
+    localStorage.removeItem("token");
+    localStorage.removeItem("user");
+    setLocalUser(null);
+    
+    // If Auth0 user, logout from Auth0
+    if (auth0Authenticated) {
+      auth0Logout({ logoutParams: { returnTo: window.location.origin } });
+    } else {
+      // Redirect to home after custom logout
+      navigate("/");
+    }
+  };
+
+  // Handle login - navigate to custom login page
+  const handleLogin = () => {
+    navigate("/login");
+  };
+
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
@@ -28,7 +67,6 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarCollapse">
           <div className="navbar-nav ms-auto p-4 p-lg-0">
             <NavLink
-              exact
               to="/"
               className="nav-item nav-link"
               activeClassName="active"
@@ -98,22 +136,21 @@ export default function Navbar() {
               className="nav-item nav-link"
               activeClassName="active"
             >
-              {user.name}
+              {user?.name || "Profile"}
             </NavLink>
           )}
+          
           {isAuthenticated ? (
             <button
               className="btn btn-primary py-4 px-lg-5 d-none d-lg-block"
-              onClick={() =>
-                logout({ logoutParams: { returnTo: window.location.origin } })
-              }
+              onClick={handleLogout}
             >
               Log out
             </button>
           ) : (
             <button
               className="btn btn-primary py-4 px-lg-5 d-none d-lg-block"
-              onClick={() => loginWithRedirect()}
+              onClick={handleLogin}
             >
               Join Now<i className="fa fa-arrow-right ms-3"></i>
             </button>
