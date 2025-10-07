@@ -19,15 +19,15 @@ export default function Mongodb() {
 
                         <Coursecart link="http://localhost:8080/App Developer\Day - 38 (2023) MongoDB\44. MongoDB (Part 1)\03. Document _ Collection.mp4" title="02. Document _ Collection" desc="How to store Document Collection in mongodb." />
 
-                        <Coursecart link="http://localhost:8080/App Developer\Day - 38 (2023) MongoDB\44. MongoDB (Part 1)\04. INSERT in DB (InsertOne).mp4" title="03. INSERT in DB (InsertOne)" desc="How to insert data into DB (InsertOne)." />
+                        <Coursecart link="http://localhost:8080/App Developer\Day - 38 (2023) MongoDB\44. MongoDB (Part 1)\04. INSERT in DB (InsertOne).mp4" title="03. INSERT in DB (InsertOne)" desc=" How to insert data into DB (InsertOne)." />
 
-                        <Coursecart link="http://localhost:8080/App Developer\Day - 38 (2023) MongoDB\44. MongoDB (Part 1)\05. INSERT in DB (InsertMany).mp4" title="04. INSERT in DB (InsertMany)" desc="How to insert data into DB (InsertMany)." />
+                        <Coursecart link="http://localhost:8080/App Developer\Day - 38 (2023) MongoDB\44. MongoDB (Part 1)\05. INSERT in DB (InsertMany).mp4" title="04. INSERT in DB (InsertMany)" desc=" How to insert data into DB (InsertMany)." />
 
                         <Coursecart link="http://localhost:8080/App Developer\Day - 38 (2023) MongoDB\44. MongoDB (Part 1)\06. FIND in DB.mp4" title="05. FIND in DB" desc="Find elements or data in DB." />
 
                         <Coursecart link="http://localhost:8080/App Developer\Day - 38 (2023) MongoDB\44. MongoDB (Part 1)\08. UPDATE in DB.mp4" title="06. UPDATE in DB" desc="Learn how to Update data in DB." />
 
-                        <Coursecart link="http://localhost:8080/App Developer\Day - 38 (2023) MongoDB\44. MongoDB (Part 1)\10. DELETE in DB.mp4" title="07. DELETE in DB" desc="Learn about how to Delete data in DB." />
+                        <Coursecart link="http://localhost:8080/App Developer\Day - 38 (2023) MongoDB\44. MongoDB (Part 1)\10. DELETE in DB.mp4" title="07. DELETE in DB" desc=" Learn about how to Delete data in DB." />
 
                         <Coursecart link="http://localhost:8080/App Developer\Day - 39 (2023)\45. MongoDB (Part 2)\01. What is mongoose-.mp4" title="08. What is mongoose" desc="What is mongoose ans its installation." />
 
