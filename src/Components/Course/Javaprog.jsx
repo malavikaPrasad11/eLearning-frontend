@@ -11,7 +11,7 @@ export default function Javaprog() {
             <div className="container">
                 <div className="text-center wow fadeInUp mt-5" data-wow-delay="0.1s">
                     <h6 className="section-title bg-white text-center text-primary px-3">Course</h6>
-                    <h1 className="mb-5">Java Programming Course</h1>
+                    <h1 className="mb-5">Java Programming Courses</h1>
                 </div>
                 <div className="container mt-6 d-flex justify-content-center w-100">
                     <div className="row row-cols-1 row-cols-md-2 g-3 d-flex justify-content-center w-100">
