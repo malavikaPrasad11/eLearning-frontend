@@ -15,7 +15,7 @@ export default function Mysql() {
                     </div>
                     <div className="row g-2 justify-content-center">
 
-                        <Coursecart link="http://localhost:8080/SQL - Complete Course in 3 Hours _ SQL One Shot using MySQL.mp4" title=" SQL using MySQL" desc="SQL One Shot video using MySQL (3 Hrs)." />
+                        <Coursecart link="http://localhost:8080/SQL - Complete Course in 3 Hours _ SQL One Shot using MySQL.mp4" title=" SQL using MySQL" desc=" SQL One Shot video using MySQL (3 Hrs)." />
 
                     </div>
                 </div>
