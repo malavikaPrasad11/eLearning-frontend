@@ -9,7 +9,7 @@ export default function Coursecart({ link, title, desc}) {
                     <div className="position-relative overflow-hidden">
                         <video width="360" height="240" controls>
                             <source src={link} type="video/mp4" />
-                            Your browser does not support the video tag.
+                            Your browser does not support the video tags.
                         </video>
                     </div>
                     <div className="text-center p-4 pb-0">
