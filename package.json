@@ -1,7 +1,7 @@
 {
   "name": "elearning",
   "private": true,
-  "homepage": "https://elearning-frontend-8iwv.onrender.com"
+  "homepage": "https://elearning-frontend-8iwv.onrender.com",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
