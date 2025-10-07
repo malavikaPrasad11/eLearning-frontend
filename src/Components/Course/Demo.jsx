@@ -24,7 +24,7 @@ export default function Demo() {
                 <div className="container">
                     <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
                         <h6 className="section-title bg-white text-center text-primary px-3">Courses</h6>
-                        <h1 className="mb-5">MERN Stack Web Devlopment Cources</h1>
+                        <h1 className="mb-5">MERN Stack Web Devlopment Courses</h1>
                     </div>
                     <div className="row g-4 justify-content-center">
                         <Demo />
