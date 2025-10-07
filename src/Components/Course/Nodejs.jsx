@@ -29,11 +29,11 @@ export default function Nodejs() {
 
                         <Coursecart link="http://localhost:8080/App Developer\Day - 30 (18_08_23) 1. Node js\35. Backend 1 (Node.js)\09. What is npm_.mp4" title="07. What is npm_" desc="Introdution : npm and its uses"/>
 
-                        <Coursecart link="http://localhost:8080/App Developer\Day - 30 (18_08_23) 1. Node js\35. Backend 1 (Node.js)\10. Installing Packages.mp4" title="08. Installing Packages" desc="How to install a packages into a directoris or file."/>
+                        <Coursecart link="http://localhost:8080/App Developer\Day - 30 (18_08_23) 1. Node js\35. Backend 1 (Node.js)\10. Installing Packages.mp4" title="08. Installing Packages" desc=" How to install packages into a directory or file."/>
 
                         <Coursecart link="http://localhost:8080/App Developer\Day - 30 (18_08_23) 1. Node js\35. Backend 1 (Node.js)\11. package.json.mp4" title="09. package.json" desc="Learn about package.json file"/>
 
-                        <Coursecart link="http://localhost:8080/App Developer\Day - 30 (18_08_23) 1. Node js\35. Backend 1 (Node.js)\13. import modules.mp4" title="10. import modules" desc="how to import modules from one file to another."/>
+                        <Coursecart link="http://localhost:8080/App Developer\Day - 30 (18_08_23) 1. Node js\35. Backend 1 (Node.js)\13. import modules.mp4" title="10. import modules" desc=" how to import modules from one file to another."/>
 
                     </div>
                 </div>
