@@ -11,7 +11,7 @@ export default function Html() {
                 <div className="container">
                     <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
                         <h6 className="section-title bg-white text-center text-primary px-3">Courses</h6>
-                        <h1 className="mb-5">HTML Tutorial in one video</h1>
+                        <h1 className="mb-5">HTML Tutorial</h1>
                     </div>
                     <div className="row g-2 justify-content-center">
 
